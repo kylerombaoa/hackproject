@@ -9,7 +9,7 @@ export default class App extends Component {
     this.props.navigator.pop();
     this.props.navigator.push({
         screen: "hack.hobbiesscreen",
-        title: 'Location',
+        title: 'Hobbies and Interest',
         backButtonHidden: true,
     });
   };
@@ -18,28 +18,28 @@ export default class App extends Component {
       <View style={{height: "100%",alignItems: "center",backgroundColor: "#FFF", justifyContent: "center",paddingTop:10}}>
           <View style={{height: "85%",width: "100%",alignItems: "center"}}>
             <View style={styles.fieldInput}>
-              <Text style={{textAlign: "left"}}>Country:</Text>
+              <Text style={{color: "#bbb",textAlign: "left"}}>Country:</Text>
               <TextInput
                 style={styles.textInput}
                 value=''
               />
             </View>
             <View style={styles.fieldInput}>
-              <Text style={{textAlign: "left"}}>Region:</Text>
+              <Text style={{color: "#bbb",textAlign: "left"}}>Region:</Text>
               <TextInput
                 style={styles.textInput}
                 value=''
               />
             </View>
             <View style={styles.fieldInput}>
-              <Text style={{textAlign: "left"}}>City:</Text>
+              <Text style={{color: "#bbb",textAlign: "left"}}>City:</Text>
               <TextInput
                 style={styles.textInput}
                 value=''
               />
             </View>
             <View style={styles.fieldInput}>
-              <Text style={{textAlign: "left"}}>Street:</Text>
+              <Text style={{color: "#bbb",textAlign: "left"}}>Street:</Text>
               <TextInput
                 style={styles.textInput}
                 value=''

@@ -26,7 +26,7 @@ export default class App extends Component {
         <View style={styles.container}>
             <View style={{height: "60%", alignItems: "center",justifyContent: "center"}}>
               <Image
-                style={{width: 120, height: 120,margin:20}}
+                style={{width: 150, height: 150,margin:20}}
                 source={require('../../assets/logo.png')}
               />
               <Text style={styles.textTitle}>modo</Text>
@@ -80,11 +80,11 @@ const styles = StyleSheet.create({
     marginBottom: 5
   },
   textTitle: {
-    fontSize: 26,
+    fontSize: 28,
     fontWeight: "bold"
   },
   textSlogan: {
-    fontSize: 10,
+    fontSize: 12,
     fontWeight: "normal"
   },
 });

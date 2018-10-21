@@ -26,46 +26,45 @@ export default class App extends Component {
       <ScrollView >
       <View style={{height: "100%",alignItems: "center",backgroundColor: "#FFF", justifyContent: "center",paddingTop:10}}>
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>First Name:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>First Name:</Text>
             <TextInput
               style={styles.textInput}
               value=''
             />
           </View>
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>Middle Name:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>Middle Name:</Text>
             <TextInput
               style={styles.textInput}
               value=''
             />
           </View>
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>Last Name:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>Last Name:</Text>
             <TextInput
               style={styles.textInput}
               value=''
             />
           </View>
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>Email Address:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>Email Address:</Text>
             <TextInput
               style={styles.textInput}
               value=''
             />
           </View> 
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>Gender:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>Gender:</Text>
             <TextInput
               style={styles.textInput}
               value=''
             />
           </View>   
           <View style={styles.fieldInput}>
-            <Text style={{textAlign: "left"}}>Birthday:</Text>
+            <Text style={{color: "#bbb",textAlign: "left"}}>Birthday:</Text>
             <TextInput
               style={styles.textInput}
               value=''
-              placeholder = "Birthday"
             />
           </View>
           <TouchableNativeFeedback onPress={() => { this.goTo()}}>

@@ -15,8 +15,11 @@ const instructions = Platform.select({
     'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
-
+ 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+  };
   render() {
     return (
       <View style={styles.container}>
@@ -33,7 +36,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#8B4B62',
+    backgroundColor: '#EEE',
   },
   welcome: {
     fontSize: 20,

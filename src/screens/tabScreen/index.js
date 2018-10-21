@@ -10,17 +10,17 @@ const startTabs = () => {
         Navigation.startTabBasedApp({
           tabs: [{
             label: '',
-            title: 'Welcome',
+            title: 'modo',
             screen: 'hack.homescreen',
             icon: sources[0]
           },{
             label: '',
-            title: 'Welcome',
+            title: 'modo',
             screen: 'hack.searchscreen',
             icon: sources[1]
           },{
             label: '',
-            title: 'Welcome',
+            title: 'modo',
             screen: 'hack.profilescreen',
             icon: sources[2]
           }]
